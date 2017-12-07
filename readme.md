@@ -9,6 +9,7 @@ callgraph and more useful cross references. A bit of extra information
 can be found on:
 
 http://blog.zynamics.com/2010/04/27/objective-c-reversing-i/
+
 http://blog.zynamics.com/2010/04/27/objective-c-reversing-ii/
 
 
@@ -34,8 +35,8 @@ running the script or trying to analyze it.
 
 After running the script is recommended to make IDA re-analyze the
 program to get the correct assembly listings and cross references. In
-order to do that, inside IDA go to Options->General->Analysis and then
-click on "Reanalyze Program"
+order to do that, inside IDA go to `Options->General->Analysis` and then
+click on `Reanalyze Program`.
 
 WARNING:
 This script modifies the IDA DataBase by creating new segments and
