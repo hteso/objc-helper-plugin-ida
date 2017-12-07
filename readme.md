@@ -1,16 +1,7 @@
-zynamics Objective-C helper script has moved to Google Code
-==================================++=======================
-
-This repository has moved to Google Code:
-http://code.google.com/p/zynamics/source/checkout?repo=objc-helper
-
-
-
 zynamics Objective-C helper script
 
 
-Description
------------
+# Description
 
 This is an idapython script that analyzes ARM/Objective-C files in
 order to patch calls made to msgSend(), in order to have a better
@@ -27,15 +18,13 @@ Vincenzo explains in this other blog post:
 http://blog.zynamics.com/2010/06/08/objective-c-phun-on-mac-os-x/
 
 
-Prerequisites
--------------
+# Prerequisites
 
 The script has been developed and tested using IDA 5.6 and idapython
 1.3.0 but it should work with older versions.
 
 
-Usage
------
+# Usage
 
 Just open the target executable file or IDB and run the script. If you
 are working with iPhoneOS binaries you will find your target inside the
@@ -54,8 +43,7 @@ patching code. If you don't know the implications of this, it is
 a good idea to have a backup of the database.
 
 
-License
--------
+# License
 
 The Objective-C helper script is GPLv2-licensed. If you prefer to
 distribute code from the script under another license please contact
@@ -77,5 +65,3 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License along
 with this program; if not, write to the Free Software Foundation, Inc.,
 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
-
-
